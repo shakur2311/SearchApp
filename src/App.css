@@ -1,0 +1,29 @@
+.App{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:black;
+}
+.ResultsComponent{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    z-index: 10;
+    margin-top:-5px;
+    background-color: white;
+    border-top:none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+input[type=text]:focus{
+    background: none;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.resultado{
+    cursor: pointer;
+}
